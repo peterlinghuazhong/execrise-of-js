@@ -28,17 +28,18 @@ let authors = [
 
 // define the routes for the app
 app.get("/books", (request, response) => {
-  // get all the posts
+  // get all the books
   response.send(books);
 });
 // define the routes for the app
 app.get("/reviews", (request, response) => {
-  // get all the posts
+  // get all the reviews
   response.send(reviews);
 });
 // define the routes for the app
 app.get("/authors", (request, response) => {
-  // get all the posts
+  // get all the authors
+
   response.send(authors);
 });
 // Your routing and controller code goes here
